@@ -1,0 +1,29 @@
+AI or artificial intelligence simply means a human intelligence exhibited by machines. 
+AI is a machine that acts like a human. 
+And currently in our industry we have something called narrow AI, that is machines can be just as good or even better than humans at specific tasks.
+
+But each AI is only good at one task. 
+Narrow AI that we currently have simply means those machines can only do one thing really well.
+They can't be like humans and have multiple abilities.
+That is called general AI and it's something that we are very far away from now.
+
+Machine Learning is a subset of AI and Machine Learning is an approach to try and achieve artificial intelligence through systems that can find patterns in a set of data.
+
+Deep learning or deep neural networks is just one of the techniques for implementing Machine Learning.
+For now, we can just think of it as a type of algorithm.
+
+Data Science simply means analyzing data, looking at data and then doing something with it, usually some sort of a business goal.
+So, when we talk about Machine Learning, there is a lot of overlap with Data Science.
+
+The only reason that we care about Machine Learning is that we are able to use machines to predict results based on incoming data.
+
+Machine Learning is using an algorithm or computer program to learn about different patterns in data and then taking that algorithm and what it learned to make predictions about the future using similar data.
+ML algorithms are also called models.
+Machine Learning algorithm looks at the input and then it looks at the output and it tries to figure out the set of instructions in between these two.
+Machine models find patterns collected in data so we can use those patterns for future problems.
+
+Data analysis is looking at a set of data and gaining an understanding of it by comparing different examples, different features and making visualizations like graphs. 
+Data Science is running experiments on a set of data with the hopes of finding actionable insights within it.
+One of these experiments may be to build a machine learning model.
+
+We can consider Data Analysis and Machine Learning as a part of Data Science.
