@@ -27,3 +27,76 @@ Data Science is running experiments on a set of data with the hopes of finding a
 One of these experiments may be to build a machine learning model.
 
 We can consider Data Analysis and Machine Learning as a part of Data Science.
+
+MACHINE LEARNING
+lets computers make decisions about data 
+and lets computers learn from data 
+and then make predictions and decisions...
+
+MACHINE LEARNING
+is a general term for when computers learn from data, 
+it allows computers to do tasks that in the past required humans. 
+
+Machine learning comes in three parts -data collection, data modeling and deployment
+We're going to cover data modeling, which means you'll be able to take a data set and apply machine
+learning algorithms to find insights on that data
+
+ML FRAMEWORK-six steps
+1. Problem definition
+What problem are we trying to solve? Supervised, unsupervised, classification, regression?
+2. Data
+What kind of data do we have?
+Structured (rows and columns) or unstructured (like images or audio)?
+3. Evaluation
+What defines success for us?
+4. Features
+What features should we model? What do we already know about the data?
+A machine learning algorithm's goal is to turn these features into patterns to make predictions.
+5. Modelling
+Based on our problem and data, what kind of ML model should we use?
+6. Experimentation
+How could we improve/what can we try next?
+
+When shouldn't you use machine learning?
+Will a simple hand-coded instruction based system work?
+
+Main types of ML Problems:
+SUPERVISED LEARNING
+UNSUPERVISED LEARNING
+TRANSFER LEARNING
+REINFORCEMENT LEARNING
+
+SUPERVISED LEARNING - you have data and labels
+a ML algorithm tries to use the data to predict a label
+if it guesses the label wrong, the algorithm corrects itself and tries again
+supervised learning algorithm repeats this process over and over again trying to get better
+
+Main types of supervised learning:
+Classification and regression
+
+Classification: 
+involves predicting if something is one thing or another
+If there are only two options, it is called binary classification
+If there are more than two options, it is called multi-class classification
+
+Regression:
+involves problems trying to predict the number
+"how much will this house sell for?"
+"how many people will buy this app?"
+
+UNSUPERVISED LEARNING - has data but no labels
+you find patterns in the data and group customers (who purchase similar things together)
+you provided the labels, they were not there to begin with but the patterns were
+clusters - putting groups of similar examples together
+
+TRANSFER LEARNING - leverages what one machine learning model has learned in another
+machine learning model
+
+REINFORCEMENT LEARNING - involves having a computer program performs some actions 
+within a defined space and rewarding it for doing it well
+or punishing it for doing poorly
+example: teaching a ML algorithm to play chess
+
+SUPERVISED LEARNING - 'I know my inputs and outputs'
+UNSUPERVISED LEARNING - 'I am not sure of the outputs but I have inputs'
+TRANSFER LEARNING - 'I think my problem may be similar to something else'
