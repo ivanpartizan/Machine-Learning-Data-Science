@@ -100,3 +100,53 @@ example: teaching a ML algorithm to play chess
 SUPERVISED LEARNING - 'I know my inputs and outputs'
 UNSUPERVISED LEARNING - 'I am not sure of the outputs but I have inputs'
 TRANSFER LEARNING - 'I think my problem may be similar to something else'
+
+DATA
+Different types of data:
+STRUCTURED and UNSTRUCTURED
+
+STRUCTURED data: Excel file, rows and columns
+all of the samples are typically in similar format
+UNSTRUCTURED data: images, natural text, videos and audio files
+
+STATIC and STREAMING DATA
+STATIC is data which doesn't change over time (CSV files)
+STREAMING is data which is constantly changed over time
+
+'The more data the better'
+
+A data science workflow:
+opening the CSV file in Jupyter notebook, a tool for building ML projects
+exploring the data and performing data analysis using pandas, a Python library for data analysis
+making visualisations such as graphs and comparing different data points using matplotlib, 
+then building ML models on the data using scikit learn
+
+EVALUATION
+Every ML problem you come across will have the similar goal of finding insights in data 
+to predict the future in some way
+An evaluation metric is measure of how well ML algorithm predicts the future
+
+Different types of metrics:
+- for classification, or predicting whether some thing is one thing or another - accuracy, precision, recall
+- for regression, or predicting a number (example, how much a car will sell for) - Mean absolute error 
+or MAE, Mean squared error or MSE, root mean squared error of RMSE
+- for recommendation problems: precision at K
+
+FEATURES
+Features is another word for different forms of data (different forms of data within structured or 
+unstructured data)
+Different features of data, example: weight, sex, heart rate, chest pain
+Features could also be referred to as feature variables
+We want to use feature variables to predict the target variable (example: heart disease?)
+
+There are different kinds of feature variables:
+numerical features (a number) and categorical features (one thing or another, like sex)
+And then there is derived feature, which is when someone looks at the data and 
+creates a new feature using the existing ones
+It is often referred to as feature engineering - (process of) looking at different features of data and 
+creating new ones/altering existing ones
+
+A feature works best within ML algorithm if many of the samples have it
+
+Feature coverage - how many samples have different features? Ideally, every sample has the same features. 
+The process of ensuring all samples have similar information is called feature coverage.
