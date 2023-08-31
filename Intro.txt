@@ -150,3 +150,111 @@ A feature works best within ML algorithm if many of the samples have it
 
 Feature coverage - how many samples have different features? Ideally, every sample has the same features. 
 The process of ensuring all samples have similar information is called feature coverage.
+
+MODELLING
+3 SETS
+Based on our problem and data, what ML model should we use?
+
+Modelling can be broken down into three parts:
+1. Choosing and training a model
+2. Tuning a model
+3. Model comparison
+
+KEY - The most important concept in machine learning:
+(the training, validation and test sets or 3 sets)
+Split your data into 3 different sets:
+1. Training set (train your model on this)
+2. Validation set (tune your model on this)
+3. Test set (test and compare your different models on this)
+
+Example, exam: course materials (training set) -> practice exam (validation set) -> final exam (test set)
+Generalization - the ability for a machine learning model to perform well on data it hasn't seen before
+
+training split 70-80%
+validation split 10-15%
+test split 10-15%
+All three of these sets are separate! During training, a model never sees a validation split or a test split
+And during testing, you are doing it on a test split, not a training set
+
+Modelling - Picking the model
+1. Choosing and training a model - training data
+2. Tuning a model - validation data
+3. Model comparison - test data
+
+Choosing a model:
+There are many pre built ML models
+Main goal would be knowing what kind of ML algorithm to use with what kind of problem
+
+If you are working with structured data, decision trees such as Random Forest and 
+gradient boosting algorithms like CatBoost and XGBoost tend to work best
+If you are working with unstructured data, Deep Learning, neural networks and 
+Transfer Learning tend to work best
+
+after choosing a model, next step is to train it
+
+Training a model - main goal will be to line up inputs and outputs
+we want our model to look at a feature variables, the inputs, 
+and then find the patterns and use them to predict the target variable
+- another common naming setting is to use x (data) to predict y (labels)
+Training a model takes place on the training data split (model learns the course material)
+Goal: Minimise time between experiments
+
+Things to remember!
+- some models work better than others on different problems
+- don't be afraid to try things (ML is highly iterative process)
+- start small and build up (add complexity) as you need
+
+Modelling - Tuning
+Model can be tuned with different types of data, usually tuning will take place on a validation data split
+Depending on what kind of model you are using will depend on what kind of hyper parameters you can choose
+For example, a Random Forest will allow you to adjust the number of trees
+and a Neural Network will allow you to adjust the number of layers
+- examples of different hyper parameters you can adjust on different kinds of algorithms.
+
+Things to remember!
+- machine learning models have hyperparameters you can adjust
+(however, depending on what model you are going to use, the hyperparameters will be different)
+A goal of tuning hyperparameters is to improve your model's performance
+- a models first results are not its last
+- tuning can take place on training or validation data sets
+
+Modelling - Comparison
+How will our model perform in the real world?
+
+After you have tuned and improved your model's performance through hyperparameter tuning, 
+it is time to see how it performs on the test set 
+(test set is like the final exam for machine learning models).
+If you have created your data splits correctly, 
+it should give you an indication on how your model will perform once deployed in production. 
+
+A good model will yield similar results on the training, validation and test sets, 
+and it is not uncommon to see a slight decline in performance from the model 
+on the training and validation set to the test set.
+
+What you should be worried about is 
+if the training set performance is dramatically higher than the test set, also known as underfitting, 
+and if the test set performance is higher than the training set performance, also known as overfiting.
+
+Overfitting and Underfitting are both examples of a model not being able to generalize well, 
+which is what we don't want.
+The ideal model shows up in the Goldilocks zone (balanced).
+It fits just right, not too well, but not too poorly. Finding this balanced zone is an iterative process. 
+
+There are several reasons why underfitting and overfitting can happen, but the main ones are: 
+data leakage and data mismatch.
+
+Data leakage happens when some of your test data leaks into your training data, and 
+this often results in overfitting or a model doing better on the test set than on the training data set.
+
+It is like if you were to have a look at the final exam or everyone had to look at the final exam 
+as the practice exam, your machine learning model has just learned what it is about to be test on.
+The test data set is used as an indication of how well your model will generalize in the real world 
+so you want to avoid data leakage. 
+
+Data mismatch happens when the data you are testing on is different to the data you are training on,
+such as having different features in the training data to the test data.
+Having this kind of mismatch can lead to models performing poorly on test data compared to training
+data (underfitting).
+
+This is why it is important to ensure that training is done on the same kind of data as 
+you will be testing on and as close as possible to what you will be using in your future applications.
