@@ -258,3 +258,34 @@ data (underfitting).
 
 This is why it is important to ensure that training is done on the same kind of data as 
 you will be testing on and as close as possible to what you will be using in your future applications.
+
+FIXES for OVERFITTING and UNDERFITTING
+OVERFITTING:
+collect more data
+(more data will provide more potential patterns for a model to find and 
+thus lower the potential for it to find them all)
+try a less advanced model
+UNDERFITTING:
+try a more advanced model
+increase model hyperparameters
+reduce amount of features
+train longer
+
+Finally, when comparing two different models to each other, it is important to ensure 
+you are comparing apples with apples and oranges with oranges.
+During comparison, you want to make sure you take into account not only the final result, 
+but what it took to get there (prediction time, not only accuracy).
+
+Things to remember!
+- want to avoid overfitting and underfitting (head towards generality)
+- keep the test set separate at all costs
+(when you split your data, you want to have a training set and then throw away the test data set and
+lock it up; and once your model has been trained, then you can open up the test data set, 
+you can unlock it, take it out of the safe and see how your model performs)
+- compare apples to apples
+(have model 1 and model 2 on data set 1 and data set 1)
+- one best performance metric does not equal best model
+(example, you may be optimizing for prediction time, 
+so although a model that makes a faster prediction doesn't get as high accuracy as another model,
+that takes a little bit longer, it might not matter to you because you need something that 
+can predict as fast as possible)
