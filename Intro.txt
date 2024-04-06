@@ -1,33 +1,44 @@
-AI or artificial intelligence simply means a human intelligence exhibited by machines. 
-AI is a machine that acts like a human. 
-And currently in our industry we have something called narrow AI, that is machines can be just as good or even better than humans at specific tasks.
+AI or artificial intelligence, which simply means a human intelligence
+exhibited by machines. AI. is a machine that acts like a human.
+And currently in our industry, we have something called narrow A.I. that is machines can be just as
+good or even better than humans at specific tasks.
 
-But each AI is only good at one task. 
-Narrow AI that we currently have simply means those machines can only do one thing really well.
-They can't be like humans and have multiple abilities.
-That is called general AI and it's something that we are very far away from now.
+But each A.I. is only good at one task.
+Narrow A.I. that we currently have simply means those machines can only do one thing really well.
+They cant be like humans and have multiple abilities.
+That's called general A.I. and it's something that we're very, very far away from now.
 
-Machine Learning is a subset of AI and Machine Learning is an approach to try and achieve artificial intelligence through systems that can find patterns in a set of data.
+Machine learning is a subset of AI and machine learning is an approach to try and achieve artificial
+intelligence through systems that can find patterns in a set of data.
 
-Deep learning or deep neural networks is just one of the techniques for implementing Machine Learning.
-For now, we can just think of it as a type of algorithm.
+deep learning or deep neural networks is just one
+of the techniques for implementing machine learning.
+For now, you can just think of it as a type of algorithm.
 
-Data Science simply means analyzing data, looking at data and then doing something with it, usually some sort of a business goal.
-So, when we talk about Machine Learning, there is a lot of overlap with Data Science.
+data Science simply means analyzing data, looking at data and then doing something with it, usually some
+sort of a business goal.
+So when we talk about machine learning, there's a lot of overlap with data science.
 
-The only reason that we care about Machine Learning is that we are able to use machines to predict results based on incoming data.
+the only reason that we care about machine learning is that we're able to
+use machines to predict results based on incoming data.
 
-Machine Learning is using an algorithm or computer program to learn about different patterns in data and then taking that algorithm and what it learned to make predictions about the future using similar data.
+Machine learning is using an algorithm or computer program to learn about different patterns in data
+and then taking that algorithm and what it's learned to make predictions about the future using similar
+data.
 ML algorithms are also called models.
-Machine Learning algorithm looks at the input and then it looks at the output and it tries to figure out the set of instructions in between these two.
-Machine models find patterns collected in data so we can use those patterns for future problems.
+machine learning algorithm looks at the input and then
+it looks at the output and it tries to figure out the set of instructions
+in between these two.
+machine models find patterns collected in data so we can use those patterns for future problems.
 
-Data analysis is looking at a set of data and gaining an understanding of it by comparing different examples, different features and making visualizations like graphs. 
-Data Science is running experiments on a set of data with the hopes of finding actionable insights within it.
-One of these experiments may be to build a machine learning model.
+data analysis is looking at a set of data and gaining an understanding of it by comparing
+different examples, different features and making visualizations like graphs
+Data science is running experiments on a set of data with the hopes of finding actionable insights within
+it.One of these experiments may be to build a machine learning model.
 
-We can consider Data Analysis and Machine Learning as a part of Data Science.
+You can consider data analysis and machine learning as a part of data science.
 
+---
 MACHINE LEARNING
 lets computers make decisions about data 
 and lets computers learn from data 
@@ -289,3 +300,84 @@ you can unlock it, take it out of the safe and see how your model performs)
 so although a model that makes a faster prediction doesn't get as high accuracy as another model,
 that takes a little bit longer, it might not matter to you because you need something that 
 can predict as fast as possible)
+
+Step 6
+EXPERIMENTATION
+All of these six steps here are a highly iterative process, 
+meaning you might try one thing, find out it doesn't work, then try another, another and another and just keep going through this loop.
+With a process like the one here, machine learning projects become tool matching projects. 
+We are going to use this process and learn the different tools for each step. 
+
+Defining a problem within is step one. Steps two, three and four are called data analysis. 
+Once you know a little bit more about the data, you decide to build a machine learning model 
+using the features you found to predict some target. And this is step five.
+Your first model goes well. You have matched the model to the problem and it is producing some good outputs. 
+So you decide to report what you found. And after your initial report, 
+your project manager asked to see if the model can be improved to get better results.
+So you do your research and find there is another approach you can take.
+This is step six - experiment.
+
+You might try a different model, model two, and see how it goes. 
+You might try vary the input slightly and change your desired outputs and try a new model. 
+
+TOOLS WE WILL USE
+Anaconda - which is like the hardware store of data science and machine learning tools.
+For data analysis (steps: data,evaluation,features) - pandas, matplotlib, NumPy
+For building ML models (step:modelling) - TensorFlow, PyTorch, scikit learn, XGBoost, CatBoost
+
+to write Python code and communicating our work, we are going to be using jupyter notebooks.
+----
+PANDAS-data analysis library
+is used to explore data, analyze data, manipulate data, get it ready for machine learning.
+WHY PANDAS?
+-simple to use
+-integrated with many other data science and ML Python tools
+-helps you get your data ready for machine learning
+
+NUMPY
+is basically the backbone of all data science, machine learning and numerical computing
+in Python.
+It stands for numerical python.
+in all of machine learning, no matter what kind of data that you're working with, 
+NumPy is going to form the foundation of turning your data into a series of numbers.
+And then what a machine learning algorithm will do is work out the patterns in those numbers.
+machine learning, although it's referred to as modeling, is essentially taking data, 
+turning it into numbers And in this case with NumPy, usually the form of a numpy array, 
+and then finding patterns in those numbers.
+
+WHY NUMPY?
+-it is fast
+-behind the scenes optimizations written in C
+-vectorization via broadcasting (avoiding loops)
+-backbone of other Python scientific packages
+
+MATPLOTLIB
+it's a plotting library, more specifically a python plotting library.
+It allows us to turn our data into some pretty visualizations, also known
+as plots or figures.
+
+WHY MATPLOTLIB?
+-built on NumPy arrays (and Python)
+-integrates directly with pandas
+-can create basic or advanced plots
+-simple to use interface once you get the foundations
+
+SCIKIT-LEARN(sklearn)
+Scikit Learn is a python machine learning library, which means that if we have data,
+SKlearn helps us build machine learning models to make predictions or learn patterns within that
+data and then make predictions.And it also implements tools to help us evaluate those predictions.
+Are they good or are they bad? Are they worth holding on to? Could we put them into our application and actually use them?
+
+Why scikit-learn?
+-built on NumPy and Matplotlib(and Python)
+-has many in-built machine learning models
+-methods to evaluate such machine learning models
+-very well-designed API
+
+scikit-learn workflow
+1. get data ready
+2. pick a model(to suit your problem)
+3.fit the model (find patterns within the data-learning patterns) to the data and make a predition (using patterns)
+4. evaluate the model
+5.improve through experimentation
+6.save and reload your trained model
