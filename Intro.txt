@@ -1,12 +1,7 @@
-AI or artificial intelligence, which simply means a human intelligence
-exhibited by machines. AI. is a machine that acts like a human.
-And currently in our industry, we have something called narrow A.I. that is machines can be just as
-good or even better than humans at specific tasks.
-
-But each A.I. is only good at one task.
-Narrow A.I. that we currently have simply means those machines can only do one thing really well.
-They cant be like humans and have multiple abilities.
-That's called general A.I. and it's something that we're very, very far away from now.
+AI or Artificial Intelligence - it simply means a human intelligence exhibited by machines. AI is a machine that acts like a human.
+And currently we have something called narrow AI - that is, machines can be just as good or even better than humans at specific tasks.
+But each AI is only good at one task. Narrow AI that we currently have simply means that those machines can only do one thing really well.
+They can't be like humans and have multiple abilities. That's called general AI and it's something that we are very, very far away from now.
 
 Machine learning is a subset of AI and machine learning is an approach to try and achieve artificial
 intelligence through systems that can find patterns in a set of data.
